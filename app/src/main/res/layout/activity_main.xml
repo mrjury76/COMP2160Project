@@ -11,6 +11,7 @@
         android:layout_width="509dp"
         android:layout_height="fill_parent"
         android:alpha="0.3"
+        android:contentDescription="Logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

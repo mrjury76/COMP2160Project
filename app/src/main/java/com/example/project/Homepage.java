@@ -19,11 +19,11 @@ public class Homepage extends Fragment {
         View view = inflater.inflate(R.layout.fragment_homepage, container, false);
 
         settings = view.findViewById(R.id.settingsButton);
-
         settings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                View settingsView = inflater.inflate(R.layout.activity_settings, container, false);
+                Intent intent = new Intent(getActivity(), Settings.class);
+                startActivity(intent);
             }
         });
 
